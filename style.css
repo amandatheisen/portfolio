@@ -1,0 +1,192 @@
+:root {
+  /* Color Pallette Variables */
+  --primary-color:#a49393 ;
+  --primary-color-deactivated: hsla(0, 9%, 61%, 0.5);
+
+  --secondary-color:#e8b4b8 ;
+  --secondary-color-deactivated: hwb(355 71% 9% / 0.5);
+
+  /* Background Variables */
+  --bg-color: #eed6d3;
+  --bg-color-deactivated: rgba(238, 214, 211, 0.5);
+  
+  /* Font Variables */
+  --primary-text-color: white;
+  --primary-text-color-deactivated: hsla(0, 0%, 100%, 0.5);
+  --secondary-text-color: #67595e;
+  --secondary-text-color-deactivated: hsla(339, 7%, 38%, 0.5);
+}
+
+html {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Set all html elements margin and padding to zero */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  border: 2px solid black;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+ background-color: var(--bg-color-deactivated);
+}
+
+.heading {
+  max-width: 45%;
+}
+
+.profileImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+/*
+Rosewater
+#e8b4b8
+
+Dusty Rose
+#eed6d3
+
+Coffee Pot
+#a49393
+
+Coffee Pot
+#67595e
+*/
+
+/* body {
+  margin: 0;
+} */
+
+#navbar ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 20px;
+  background-color:var(--secondary-text-color);
+  color: white;
+  font-size: 26px;
+}
+
+/* ul {
+  margin: 0;
+} */
+
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.nav-li:hover {
+  /* color: #51341e; */
+  scale: 1.2;
+  background-color:  #51341e;
+}
+
+.nav-li:hover > a {
+  color: #51341e !important;
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  border-width: 1px;
+  border-style: groove;
+  border-radius: 35%;
+}
+
+.main-content {
+  text-align: center;
+  padding: 40px 100px 40px 100px;
+}
+
+h1, h2, img{
+  padding-bottom: 30px;
+}
+
+img {
+  /* min-height: 100px; */
+  width: 300px;
+  /* max-height: 400px; */
+  border-radius: 40%;
+}
+
+.fa-regular .fa-arrow-up {
+  /* color: var(--secondary-color); */
+  background-color: var(--secondary-text-color);
+  /* border-radius: 20%; */
+}
+
+footer {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-text-color);
+  width: 100%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#contact > li > a {
+  color: white;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 10px;
+}
+
+.icons > li > a {
+  color: white;
+}
+
+.back-to-home {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 20px;
+  bottom: 25%;
+  background-color: var(--secondary-text-color-deactivated);
+  border-radius: 50%;
+  padding: 10px 15px 15px 15px;
+}
+
+/* .back-to-home > a > svg {
+ 
+} */
+
+
