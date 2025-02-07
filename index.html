@@ -6,7 +6,7 @@
   <title>Amanda Theisen Portfolio</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://kit.fontawesome.com/5028945411.js" crossorigin="anonymous"></script>
-</head>
+  <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons"></a></head>
 
 <body>
   <!-- <div class="dropdown">
@@ -21,52 +21,189 @@
   
   <nav id="navbar">
     <ul>
-      <!-- <li class="nav-li"><a href="" target="_blank">Home</a></li> -->
+      <li class="nav-li"><a href="#home">Home</a></li>
       <li class="nav-li"><a href="#about">About</a></li>
-      <li class="nav-li"><a href="">Skills</a></li>
-      <li class="nav-li"><a href="">Projects</a></li>
+      <!-- <li class="nav-li"><a href="">Skills</a></li> -->
+      <li class="nav-li"><a href="#projects">Projects</a></li>
       <li class="nav-li"><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <!-- <section id="home">
-    <h3>Home Section</h3>
-    <p>Welcome to the Home section of the page</p>
-  </section> -->
-<!-- 
-  <section id="about">
-    <h3>About Section</h3>
-    <p>Learn more about me in the About section</p>
-  </section> -->
-<!-- 
-  <section id="contact">
-    <h3>Contact Section</h3>
-    <p>Welcome to the contact section</p>
-  </section> -->
 
-  <div class="main-content" id="about">
-  <div class="profileImg">
-    <h1 class="heading">Hello you!<br> My name is Amanda Theisen</h1>
-    <img src="MyPhoto.jpg" alt="Amanda's profile photo">
+  <div class="home-content" id="home">
+    <div class="profile">
+      <h1 class="heading">Hi,<br> I'm Amanda Theisen</h1>
+      <img id="profile-img" src="profile.jpeg" alt="Amanda's profile photo">
+    </div>
   </div>
-  <p>
-    I'm a junior web developer passionate about solving problems and crafting meaningful digital experiences. I recently completed an intensive 12-week full-time web development bootcamp, where I fully immersed myself in learning and building practical projects—check them out here on my portfolio!
 
-    I have a strong foundation in HTML, CSS, JavaScript, and Python, and I've worked on projects ranging from intuitive user interfaces to interactive features. I’m always eager to expand my skills by exploring new technologies and tools, like React, Node.js, and APIs, to enhance my capabilities.
-    
-    Having lived in London for over four years, I’ve honed my adaptability and a love for continuous learning. I’m excited to bring my dedication and enthusiasm to a team where I can grow as a developer and contribute to impactful projects.
-  </p>
-</div>
+  <section id="about">
+    <div class="section-content">
+      <div class="about-me-box">
+      <h2 id="" >About Me</h2>
+      <div class="space-s"></div>
+      <p id=""> 
+        With over 10 years of customer service experience and a background in psychology, I’ve developed strong problem-solving abilities and a deep understanding of people’s needs. My passion for problem-solving motivated me to transition into the IT field, where I can leverage these skills to develop impactful and innovative solutions. This inspired me to complete an intensive 12-week software development course, where I gained hands-on experience and built a solid foundation in programming. I’m excited to continue learning, embrace new challenges, and contribute to meaningful projects in the IT field.
+      </p>
+    </div>
+      <div class="space-l"></div>
+      <div class="skills">
+        <h3>Skills</h3>
+        <div class="space-s"></div>
+        <ul class="skills-ul">
+          <li><div class="skills-img"><img src="html.png" alt="html-img"></div></li>
+          <li><div class="skills-img"><img src="css.png" alt="css-img"></div></li>
+          <li><div class="skills-img"><img src="js.png" alt="js-img"></p></div></li>
+          <li><div class="skills-img"><img src="python.png" alt="python-img"></div></li>
+          <li><div class="skills-img"><img src="sql.png" alt="sql-img"></div></li>
+          <li><div class="skills-img"><img src="github.png" alt="git-img"></div></li>
+        </ul>
+      </div>
+      <div class="space-l"></div>
+      <div class="hobbies">
+        <h3>Hobbies</h3>
+        <div class="space-s"></div>
+        <p>
+          Travelling, Sodoku, photography
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-content">
+      <h2>Projects</h2>
+      <div class="project-cards">
+
+        <div class="project-card">
+          <img class="project-screenshot" src="water-intake-calculator-screenshot.png" alt="Water Intake Calculator Project Screenshot">
+          <div class="card-content">
+            <div class="space-l"></div>
+            <h3 class="card-title">Water Intake Calculator</h3>
+            <!-- <div class="space-s"></div> -->
+            <p class="card-description">A simple tool to calculate daily water needs based on weight and activity level, featuring personalized inputs and instant results.</p>
+            <div class="space-s"></div>
+            <div class="tech-icons">
+              <img class="tech-icons-img" src="html.png" alt="HTML5">
+              <img class="tech-icons-img" src="css.png" alt="CSS3">
+              <img class="tech-icons-img" src="js.png" alt="JavaScript">
+              <div class="space-s"></div>
+            </div>
+            <div id="card-buttons">
+              <button class="git-button"><a href="https://github.com/amandatheisen/amandatheisen.github.io" target="_blank">GitHub</a></button>
+              <button class="live-button"><a href="https://amandatheisen.github.io/" target="_blank">Live Demo</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-screenshot" src="water-intake-calculator-screenshot.png" alt="Project Image">
+          <div class="card-content">
+            <div class="space-l"></div>
+            <h3 class="card-title">Project Name</h3>
+            <p class="card-description">A brief description of the project goes here. Explain what it does and its main features.</p>
+            <div class="tech-icons">
+              <div class="space-s"></div>
+              <img class="tech-icons-img" src="sql.png" alt="SQL" />           
+            </div>
+            <div class="space-s"></div>
+            <div id="card-buttons">
+            <button class="git-button"><a href="#" target="_blank">GitHub</a></button>
+              <!-- <a href="#" target="_blank">Live Demo</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-screenshot" src="water-intake-calculator-screenshot.png" alt="Project Image">
+          <div class="card-content">
+            <div class="space-l"></div>
+            <h3 class="card-title">Project Name</h3>
+            <p class="card-description">A brief description of the project goes here. Explain what it does and its main features.</p>
+            <div class="tech-icons">
+              <div class="space-s"></div>
+              <img class="tech-icons-img" src="python.png" alt="Python">
+              <div class="space-s"></div>
+            </div>
+            <div id="card-buttons">
+            <button class="git-button"><a href="#" target="_blank">GitHub</a>
+              <!-- <a href="#" target="_blank">Live Demo</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-screenshot" src="water-intake-calculator-screenshot.png" alt="Project Image">
+          <div class="card-content">
+            <div class="space-l"></div>
+            <h3 class="card-title">Project Name</h3>
+            <p class="card-description">A brief description of the project goes here. Explain what it does and its main features.</p>
+            <div class="tech-icons">
+              <div class="space-s"></div>
+              <img class="tech-icons-img" src="python.png" alt="Python">
+              <div class="space-s"></div>
+            </div>
+            <div id="card-buttons">
+            <button class="git-button"><a href="#" target="_blank">GitHub</a>
+              <!-- <a href="#" target="_blank">Live Demo</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="contact">
+    <div class="section-content">
+      <h2>Get in touch</h2>
+      <div class="space-l"></div>
+      <div class="space-l"></div>
+      <div class="contact-container">
+      </div>
+      <div class="message-me">
+        <form method="get" class="get-in-touch-form">
+          <input type="text" placeholder="Name*" required>
+          <input type="email" placeholder="Email*" required>
+          <textarea placeholder="Message*" rows="4" required></textarea>
+          <button type="submit">SEND</button>
+        </form>
+        <div class="contact-info">
+          <p class="email">
+            <div class="space-l"></div>
+            <div class="space-l"></div>
+            <a href="mailto:amandatheisen@hotmail.com">amandatheisen@hotmail.com</a>
+          </p>
+          <div class="contact-icons">
+            <a href="https://uk.linkedin.com/in/amanda-theisen-444432202?trk=people-guest_people_search-card" target="_blank" class="linkedin">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/amandatheisen" target="_blank" class="git-hub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+
+
 
 <div class="back-to-home">
-  <a href="#about">
+  <a href="#navbar">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>
   </a>
 </div>
 
 
   <footer>
-      <ul id="contact">
+      <!-- <ul id="contact">
         <li class="email">
           <a href="">amandasantos@hotmail.com</a>
         </li>
@@ -75,10 +212,10 @@
             <a href="https://uk.linkedin.com/in/amanda-theisen-444432202?trk=people-guest_people_search-card"><i class="fa-brands fa-linkedin"></i></a>
           </li>
           <li class="git-hub">
-            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href="https://github.com/amandatheisen"><i class="fa-brands fa-github"></i></a>
           </li>
         </div>
-      </ul>
+      </ul> -->
   </footer>
 
 </body>
